@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.35
         }
       },
       "diff_pair_dimensions": [
@@ -57,7 +57,7 @@
         {
           "gap": 1.5,
           "via_gap": 0.5,
-          "width": 0.2
+          "width": 0.22
         }
       ],
       "drc_exclusions": [],
@@ -181,8 +181,11 @@
         0.15,
         0.19,
         0.2,
+        0.22,
+        0.25,
         0.3,
-        0.5
+        0.5,
+        0.6
       ],
       "via_dimensions": [
         {
@@ -461,7 +464,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
-        "pcb_color": "rgb(118, 116, 116)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -478,7 +481,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR",
-        "pcb_color": "rgb(253, 0, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(194, 0, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -495,9 +498,9 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "RF",
-        "pcb_color": "rgb(237, 255, 83)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.19,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -512,7 +515,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SMPS",
-        "pcb_color": "rgb(255, 81, 238)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -529,9 +532,9 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SWD",
-        "pcb_color": "rgb(78, 75, 255)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.19,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -539,14 +542,14 @@
       {
         "bus_width": 12,
         "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "diff_pair_gap": 0.15,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.22,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB",
-        "pcb_color": "rgb(84, 255, 80)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
